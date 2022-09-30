@@ -1,0 +1,43 @@
+.box {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 20px;
+  width: 400px;
+  height: 125px;
+  background: rgb(17, 164, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 164, 210, 1) 0%,
+    rgba(69, 5, 172, 1) 100%
+  );
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.box:hover {
+  /* height: 50px;
+  width: 120px; */
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+h5 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+p {
+  font-size: 13px;
+  color: #fff;
+}
+.priceQTH-hero2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 23px;
+  padding-left: 10px;
+}

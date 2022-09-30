@@ -1,0 +1,72 @@
+.box-hero1 {
+  border: none;
+  background: rgb(17, 164, 210);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 164, 210, 1) 0%,
+    rgba(69, 5, 172, 1) 100%
+  );
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+.box-hero1:hover {
+  /* height: 50px;
+  width: 120px; */
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.h5-hero1 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.h6-hero1 {
+  font-size: 20px;
+  color: #fff;
+  font-size: 16px;
+}
+.priceQTH {
+  font-size: 20px;
+  padding-top: 3px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 23px;
+  padding-left: 10px;
+}
+
+.btn-hero1 {
+  border: none;
+  background: rgb(28, 35, 66);
+  background: radial-gradient(
+    circle,
+    rgba(28, 35, 66, 1) 0%,
+    rgba(20, 2, 56, 1) 100%
+  );
+  color: #fff;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 1rem;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-hero1:hover {
+  /* height: 50px;
+  width: 120px; */
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+input {
+  border: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 60%;
+}
